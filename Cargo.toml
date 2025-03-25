@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 winit = "0.28.7"
+wgpu = "24.0.3"
+cgmath = "0.18"
+bytemuck = { version = "1.12", features = ["derive"] }
+pollster = "0.3"
